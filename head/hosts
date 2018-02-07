@@ -1,15 +1,7 @@
 127.0.0.1 localhost
 127.0.1.1 tegra-ubuntu
-127.0.0.1 headcore0
-127.0.0.1 headcore1
-127.0.0.1 headcore2
-127.0.0.1 headcore3
-127.0.0.1 headcore4
-127.0.0.1 headcore5
-192.168.2.5 worker0core0
-192.168.2.5 worker0core1
-192.168.2.5 worker0core2
-192.168.2.5 worker0core3
-192.168.2.5 worker0core4
-192.168.2.5 worker0core5
+192.168.2.2 worker01
+192.168.2.3 worker02
+192.168.2.4 worker03
+192.168.2.5 worker04
 
