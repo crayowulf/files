@@ -1,5 +1,6 @@
 127.0.0.1 localhost
 127.0.1.1 tegra-ubuntu
+192.168.2.1 headNode
 192.168.2.2 worker01
 192.168.2.3 worker02
 192.168.2.4 worker03
