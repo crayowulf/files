@@ -11,4 +11,9 @@
 #
 # By default this script does nothing.
 
+# fix rpcbind bug, according to here:
+#https://ilearnedhowto.wordpress.com/2017/05/15/how-to-install-a-cluster-with-nis-and-nfs-in-ubuntu-16-04/
+systemctl restart rpcbind
+systemctl restart nis
+
 exit 0
