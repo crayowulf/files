@@ -15,4 +15,9 @@
 echo 1 > /proc/sys/net/ipv4/ip_forward
 iptables -t nat -A POSTROUTING -s 192.168.0.0/16 -o eth0 -j MASQUERADE
 
+# fix rpcbind bug, according to here:
+#https://ilearnedhowto.wordpress.com/2017/05/15/how-to-install-a-cluster-with-nis-and-nfs-in-ubuntu-16-04/
+systemctl restart rpcbind
+systemctl restart nis
+
 exit 0
