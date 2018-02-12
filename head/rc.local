@@ -20,4 +20,7 @@ iptables -t nat -A POSTROUTING -s 192.168.0.0/16 -o eth0 -j MASQUERADE
 systemctl restart rpcbind
 systemctl restart nis
 
+#make sure dnsmasq starts, I had problems with it not starting after a reboot - BJK 02-12-2018
+systemctl restart dnsmasq
+
 exit 0
