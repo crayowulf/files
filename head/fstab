@@ -1,1 +1,2 @@
 # UNCONFIGURED FSTAB FOR BASE SYSTEM
+/dev/sda /media/cluster_files ext4 defaults 0 0
