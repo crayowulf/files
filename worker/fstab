@@ -1,2 +1,2 @@
 # UNCONFIGURED FSTAB FOR BASE SYSTEM
-headNode:/media/cluster_files /media/cluster_files nfs rsize=8192,wsize=8192,timeo=14,intr
+headNode:/media/cluster_files /media/cluster_files nfs rsize=8192,wsize=8192,timeo=14,intr,comment=systemd.automount
