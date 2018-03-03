@@ -34,3 +34,6 @@
 # the value "^localhost" [without the quotes] to the "ras" MCA
 # parameter).  
 
+headNode
+worker01
+worker02
