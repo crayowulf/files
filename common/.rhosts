@@ -1,5 +1,5 @@
-headNode.crayowulf.nis
-worker01.crayowulf.nis
-worker02.crayowulf.nis
-worker03.crayowulf.nis
-worker04.crayowulf.nis
+headNode
+worker01
+worker02
+worker03
+worker04
