@@ -8,8 +8,6 @@
 # /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
 # /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
 #
-/media/cluster_files worker01(rw,sync,no_root_squash,no_subtree_check)
-/homex worker01(rw,sync,no_root_squash,no_subtree_check)
-/media/cluster_files worker02(rw,sync,no_root_squash,no_subtree_check)
-/homex worker02(rw,sync,no_root_squash,no_subtree_check)
+/home2 worker01(rw,sync,no_root_squash,no_subtree_check)
+/home2 worker02(rw,sync,no_root_squash,no_subtree_check)
 
