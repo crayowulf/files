@@ -35,7 +35,7 @@ YPPUSHARGS=
 # ignored.
 # MINGID is the lowest gid that will be included in the group maps.
 MINUID=1000
-MINGID=1000
+MINGID=1
 
 # Similarly, we also define a MAXUID and MAXGID specifying the maximum
 # user ID and group ID which will be exported.
