@@ -10,4 +10,4 @@
 #
 /home2 worker01(rw,sync,no_root_squash,no_subtree_check)
 /home2 worker02(rw,sync,no_root_squash,no_subtree_check)
-
+/home2 worker03(rw,sync,no_root_squash,no_subtree_check)
