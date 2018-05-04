@@ -21,7 +21,6 @@ make-arch-help:
 	@echo " IRIX6"
 	@echo " IRIX6_64"
 	@echo " LINUX"
-	@echo " LINUXCARMA"
 	@echo " LINUXALPHA"
 	@echo " LINUXAMD64"
 	@echo " LINUXPPC"
@@ -302,14 +301,14 @@ FREEBSDAMD64:
 LINUX:
 	$(MAKE) dynlibs staticlibs bins \
 	"ARCH = LINUX" \
-	"COPTO = -fPIC -o " \
-	"LOPTO = -fPIC -lstdc++ -o " \
+	"COPTO = -fPIC -m32 -o " \
+	"LOPTO = -fPIC -m32 -lstdc++ -o " \
 	"CC = gcc" \
 	"CXX = g++" \
 	"DEF = -D" \
-	"CCFLAGS =  -O2 -fPIC -Wall" \
-	"CXXFLAGS = -O2 -fPIC -Wall" \
-	"TCLLDFLAGS = -ltcl8.6 -ldl" \
+	"CCFLAGS = -m32 -O2 -fPIC -Wall" \
+	"CXXFLAGS = -m32 -O2 -fPIC -Wall" \
+	"TCLLDFLAGS = -ltcl8.5 -ldl" \
 	"NETCDFLDFLAGS = -lnetcdf " \
 	"AR = ar" \
 	"NM = nm -p" \
@@ -361,6 +360,7 @@ LINUXCARMA:
 	"CCFLAGS = -O3 -fPIC -Wall -march=armv8-a -mcpu=cortex-a57 -mtune=cortex-a57 -ffast-math -fno-strict-aliasing" \
 	"CXXFLAGS = -O3 -fPIC -Wall -march=armv8-a -mcpu=cortex-a57 -mtune=cortex-a57 -ffast-math -fno-strict-aliasing" \
 	"TCLLDFLAGS = -ltcl8.6 -lz -ldl -lpthread" \
+	"NETCDFLDFLAGS = -lnetcdf " \
 	"AR = ar" \
 	"NM = nm -p" \
 	"RANLIB = touch" \
