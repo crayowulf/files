@@ -117,4 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=/usr/local/cuda-8.0/bin:/usr/lib/openmpi:/home2/ben/bin:/home2/ben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home2/bin/bin
-export LD_LIBRARY_PATH=/usr/lib/openmpi/lib:LD_LIBRARY_PATH:/usr/lib/openblas-base:/usr/local/cuda-8.0/targets/aarch64-linux/lib
+export LD_LIBRARY_PATH=/usr/lib/openmpi/lib:/usr/lib/openblas-base:/usr/local/cuda-8.0/targets/aarch64-linux/lib
